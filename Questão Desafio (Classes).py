@@ -27,3 +27,4 @@ estudo = estudo("Thiago Augusto","20","1,67","Masculino","Estudante de Eng. Cont
 print(estudo.instituicao)
 print(estudo.ocupacao)
 estudo.atuando()
+print('_____________________________________________')
