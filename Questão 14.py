@@ -52,8 +52,6 @@ while(len(nome2)<2 and idade == 0):
 idade = int(input("Digite sua idade, por gentileza: "))
 print(f"{nome2[0]} {nome2[1]}, sua idade é {idade}!")
 
-print("Questão Desafio")
-print("___________________________________________")
             
 
 
