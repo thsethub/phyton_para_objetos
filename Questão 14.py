@@ -43,17 +43,16 @@ while(v<=4):
 
 print("4° Questão e 5° Questão")
 print("___________________________________________")
-while(len(nome2)<2 and idade == 0):
+while(len(nome2)<2):
       nome2 = (input("Digite seu nome e sobrenome: ")).split()
       if(len(nome2)<2):
             print("Por favor, digite seu sobrenome também!")
       else:
             print(f"Seja bem vindo {nome2[0]} {nome2[1]}!")
-idade = int(input("Digite sua idade, por gentileza: "))
+while(idade==0):
+    if(idade==0):
+      idade=int(input("Digite sua idade válida, por gentileza: "))
 print(f"{nome2[0]} {nome2[1]}, sua idade é {idade}!")
-
-print("Questão Desafio")
-print("___________________________________________")
             
 
 
