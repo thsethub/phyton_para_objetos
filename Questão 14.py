@@ -53,7 +53,7 @@ while(idade==0):
     if(idade==0):
       idade=int(input("Digite sua idade válida, por gentileza: "))
 print(f"{nome2[0]} {nome2[1]}, sua idade é {idade}!")
-            
+
 
 
 
