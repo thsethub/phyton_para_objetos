@@ -41,6 +41,7 @@ while(v<=4):
             print(f'Este nome {nome_minusculo[v]} não é um palíndromo!')
             v+=1
 
+
 print("4° Questão e 5° Questão")
 print("___________________________________________")
 while(len(nome2)<2):
